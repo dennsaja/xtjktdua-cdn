@@ -1,6 +1,5 @@
 const fs = require("fs");
 const path = require("path");
-const bucket = require("../config/firebase.js");
 const { formatDate } = require("../utils/helpers.js");
 const PublicUrl = process.env.PUBLIC_URL || "http://localhost:3000";
 const uploadDirectory = path.join(__dirname, "..", "uploads");
